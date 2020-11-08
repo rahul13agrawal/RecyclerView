@@ -5,6 +5,7 @@ import com.example.recyclerviewpoc.checklist.CheckListListable;
 import com.example.recyclerviewpoc.checklist.ViewTypeHolder;
 
 public class ViewTypeItem extends CheckListListable<ViewTypeHolder> {
+
     @Override
     public void showMandatoryText(boolean show) {
 

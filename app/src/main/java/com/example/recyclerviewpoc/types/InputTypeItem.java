@@ -6,17 +6,16 @@ import com.example.recyclerviewpoc.checklist.InputTypeHolder;
 
 public class InputTypeItem extends CheckListListable<InputTypeHolder> {
 
-    private String abcd;
+    private String data;
 
-    public InputTypeItem(String abcd) {
-        this.abcd = abcd;
+    public InputTypeItem(String data) {
+        this.data = data;
     }
 
     @Override
     public void onBind(InputTypeHolder viewHolder) {
 
-        viewHolder.et_text.setText(abcd);
-
+        viewHolder.et_text.setText(data);
     }
 
     @Override
